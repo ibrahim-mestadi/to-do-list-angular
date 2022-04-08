@@ -8,7 +8,7 @@
         {
             "id": 2,
             "labal": "lean Spring",
-            "completed": false
+            "completed": true
         }
     ]
 }
