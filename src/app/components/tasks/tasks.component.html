@@ -34,6 +34,15 @@
 
 <div class="row">
     <div class="col-md-6 mx-auto">
-        List of tasks
+        <ul class="list-group">
+            
+            <li *ngFor="let task of tasks" class="list-group-item d-flex justify-content-between align-items-center">
+                {{ task.labal }}
+                <span class="badge badge-secondary badge-pill">
+                    {{ task.completed }}
+                </span>
+            </li>
+            
+        </ul>
     </div>
 </div>
